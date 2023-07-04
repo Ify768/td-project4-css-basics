@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+  padding: 10px;
+}
+
+/* The header */
+header .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%;
+}
+
+header .article{
+  display: inline;
+  font-size: 20px;
+  text-align: center;
+  background-color: none;
+}
+/* End The Header */
+
+/* desc */
+ desc .about-section{
+  heading: center;
+  padding:60px;
+  display: block;
+  text align: center;
+  background: #1abc9c;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* End desc*/
+
+
+section .desc div{
+  width:30%;
+  padding: 20px;
+  text-align:center;
+  margin: 0px 15px 15px 15px;
+  font-size: 20px;
+  border-radius: 15px
+}
+
+section .desc .desc_item{
+  display: flex;
+}
+
+
+footer .Contact_Info{
+  text-align: center;
+  display: block;
+  background-color: #1abc9c;
+  color: black;
+
+}
